@@ -52,3 +52,12 @@ main { max-width: 960px; margin: 0 auto; padding: 0 1rem 3rem; }
 .tool:hover, .tool:focus-visible { border-color: var(--accent); }
 .tool-name { display: block; font-weight: 600; font-size: 1.1rem; }
 .tool-desc { display: block; margin-top: 0.4rem; font-size: 0.9rem; opacity: 0.7; }
+:root { --yellow: #f5c400; }
+.tool-yellow, .tool-yellow:hover, .tool-yellow:focus-visible {
+  border: 2px solid var(--yellow);
+}
+.page { max-width: 760px; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+.back { display: inline-block; margin-bottom: 1rem; color: inherit; opacity: 0.7; }
+.page img { max-width: 100%; }
+.page table { border-collapse: collapse; }
+.page th, .page td { border: 1px solid var(--border); padding: 0.4rem 0.7rem; }
